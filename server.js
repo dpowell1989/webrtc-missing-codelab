@@ -4,7 +4,7 @@ const http = require('http');
 const WebSocket = require('ws');
 const uuid = require('uuid');
 
-const port = 8080;
+const port = 80;
  
 // We use a HTTP server for serving static pages. In the real world you'll
 // want to separate the signaling server and how you serve the HTML/JS, the
