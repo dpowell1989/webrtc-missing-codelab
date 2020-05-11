@@ -6,6 +6,6 @@ COPY . /usr/src/apps/
 
 RUN cd /usr/src/apps/ && npm install
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD npm start
